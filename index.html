@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>shake_128 Generator</title>
+    <link rel="stylesheet" href="styleme.css">
+
+    <link rel="stylesheet" href="extra.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.3.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.3.1/core.js"></script>
+    <script src="https://kit.fontawesome.com/b0d93850a5.js" crossorigin="anonymous"></script>
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+        
+        .container{
+          /* The image used */
+          background-image: url("encryption.png");
+        
+          /* Full height */
+          height: 100%; 
+        
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        </style>
+
+</head>
+<body>
+        
+        <h1><span>Hash</span> Generator</h1>
+        <p>Generate your shake_128 hash data online </p>
+
+ 
+        <div class="container">
+              <h1>SHAKE_128 Hash Converter</h1>
+
+
+              <div id="shake_128">
+                <input type="text" id="shake_128_input" placeholder="Enter any Word...." />
+                <button py-click="shake_128_converter">Generate shake_128</button> 
+                <i class="fa-solid fa-circle-arrow-right fa-beat fa-sm" style="color: #9ae25f;"></i>
+  
+                <textarea class="output" id="shake_128_output" cols="20" rows="3" placeholder="SHAKE_128 Shown here..."></textarea>
+        
+                
+              </div>
+             
+        </div>
+
+
+<footer> <i class="fa-solid" style="color: #ffffff;"></i>&copy; Yakub Varsee</footer>
+
+        <script type="py" src="./main.py" config="./pyscript.json"></script>
+                      
+</body>
+</html>
+
+
+
+
